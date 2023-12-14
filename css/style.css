@@ -1,0 +1,286 @@
+/* Sidebar Style */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 260px;
+    background-color: #0d0d0e; 
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.sidebar-wrapper {
+    padding-top: 20px;
+}
+
+.sidebar-content {
+    padding: 20px;
+}
+
+/* User Info Section */
+.user {
+    margin-bottom: 20px;
+}
+
+.avatar-sm{
+    margin-bottom:10px;
+    
+}
+
+.avatar-sm img {
+    width: 40px;
+    height: 40px;
+}
+
+.info a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.user-level {
+    font-size: 12px;
+    margin-left: 5px;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.akun{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.akun:hover{
+    color: aqua;
+}
+
+/* Sidebar Navigation */
+.nav li{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.nav-primary {
+    margin-top: 20px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.nav-item  .nav-item.active.mt-3{
+    position: relative;
+    background-color: black ;
+}
+
+.nav-item a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.nav-item a:hover {
+    color: yellow;
+}
+
+.nav-section {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.text-section {
+    font-size: 12px;
+    color: #101111;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.dataumum{
+    color: white;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dataumum2{
+    color: aqua;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Submenu */
+.nav-collapse {
+    list-style: none;
+    padding-left: 20px;
+}
+
+/* Caret Icon */
+.nav-item .caret {
+    float: right;
+}
+
+
+/* Collapse Animation */
+.collapse.in {
+    display: block;
+}
+
+/* Logout Button */
+
+.nav-item.active.mt-3{
+    margin-top: 2%;
+    background-color: aqua;
+    border-radius: 12px;
+}
+.nav-item.active.mt-3 a {
+    color: black; 
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Page Header and Dashboard */
+.page-inner {
+    margin-left: 260px; 
+    padding: 20px;
+}
+
+/* Responsive Styling for Small Devices */
+@media (max-width: 767.98px) {
+    .page-inner {
+        margin-left: 0;
+        padding: 15px;
+    }
+}
+
+
+.card-title {
+    margin-bottom: 10px;
+}
+
+.card-category {
+    margin-top: -10px;
+    color: #6c757d; 
+}
+
+/* Stats Cards */
+.card-stats {
+    height: 100%;
+}
+
+.card-stats .icon-big {
+    font-size: 36px;
+    color: #fff;
+}
+
+.card-stats .card-category {
+    font-size: 14px;
+}
+
+.card-stats .card-title {
+    font-size: 18px;
+}
+
+/* Aligning Cards in Row */
+.row .card {
+    width: 100%;
+}
+
+/* Centering Elements */
+.center {
+    text-align: center;
+}
+
+.page-header .page-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; }
+
+.sticky-footer .copyright{
+        position:fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        color: #807d7d;
+        padding: 10px;
+        text-align: right;
+       font-family: 'Times New Roman', Times, serif;
+       font-style: normal;
+}
+
+/* General Styles */
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Panel Header Styles */
+  .panel-header {
+    background: linear-gradient(to right, #27a1f1, #9e1993); 
+    color: #fff;
+    padding: 4 2px;
+  }
+  
+  .panel-header h2 {
+    font-size: 2em;
+  }
+  
+  .panel-header h5 {
+    font-size: 1.2em;
+    opacity: 0.7;
+  }
+  
+  /* Page Inner Styles */
+  .page-inner {
+    padding: 20px;
+  }
+  
+ /* Center the Card */
+.card.full-height {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 100%;
+  }
+  
+  /* Card Styles */
+  .col-md-6{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    margin-bottom: 10px;
+  }
+  
+  .card-category {
+    opacity: 0.7;
+    color: #6c757d;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 767.98px) {
+    .card.full-height {
+      height: auto; 
+    }
+  }
+  
+  
+ 
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .d-flex {
+      flex-direction: column;
+    }
+  }
+  
+  
