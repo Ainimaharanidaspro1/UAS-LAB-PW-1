@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('../assets/img/sekolah.jpg') center center fixed;
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+}
+
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-login100 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6); /* Adjust the transparency */
+}
+
+.wrap-login100 {
+  width: 80%; /* Adjust the max-width as needed */
+  max-width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.login100-form {
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+.login100-form-title {
+  font-size: 24px;
+  color: #333;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+.username,
+.wrap-input100 {
+  position: relative;
+  margin-bottom: 15px; /* Adjust the margin as needed */
+}
+
+.input100 {
+  width: 100%;
+  padding: 10px; /* Adjust the padding as needed */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #555;
+}
+
+.focus-input100::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #57b846;
+  transition: 0.4s;
+}
+
+.focus-input100::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #57b846;
+  transition: 0.4s;
+}
+
+.input100:focus + .focus-input100::before {
+  width: 100%;
+}
+
+.input100:focus + .focus-input100::after {
+  width: 0;
+}
+
+.btn-show-pass {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.login100-form-btn {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  background: #57b846;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login100-form-btn:hover {
+  background: #333;
+}
